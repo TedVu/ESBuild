@@ -3695,8 +3695,7 @@
                 case OVERLOADED_BOOLEAN:
                   if (value === true) {
                     target.push(attributeSeparator, attributeNameChunk, attributeEmptyString);
-                  } else if (value === false)
-                    ;
+                  } else if (value === false) ;
                   else {
                     target.push(attributeSeparator, attributeNameChunk, attributeAssign, stringToChunk(escapeTextForBrowser(value)), attributeEnd);
                   }
@@ -5141,8 +5140,7 @@
             }
           }
           function popToNearestCommonAncestor(prev, next) {
-            if (prev === next)
-              ;
+            if (prev === next) ;
             else {
               popNode(prev);
               var parentPrev = prev.parent;
@@ -6625,8 +6623,7 @@
               try {
                 return renderNodeDestructiveImpl(request, task, node);
               } catch (x) {
-                if (typeof x === "object" && x !== null && typeof x.then === "function")
-                  ;
+                if (typeof x === "object" && x !== null && typeof x.then === "function") ;
                 else {
                   lastBoundaryErrorComponentStackDev = lastBoundaryErrorComponentStackDev !== null ? lastBoundaryErrorComponentStackDev : getCurrentStackInDEV();
                 }
@@ -6887,8 +6884,7 @@
               }
             } else {
               boundary.pendingTasks--;
-              if (boundary.forceClientRender)
-                ;
+              if (boundary.forceClientRender) ;
               else if (boundary.pendingTasks === 0) {
                 if (segment.parentFlushed) {
                   if (segment.status === COMPLETED) {
@@ -9103,8 +9099,7 @@
                 case OVERLOADED_BOOLEAN:
                   if (value === true) {
                     target.push(attributeSeparator, attributeNameChunk, attributeEmptyString);
-                  } else if (value === false)
-                    ;
+                  } else if (value === false) ;
                   else {
                     target.push(attributeSeparator, attributeNameChunk, attributeAssign, stringToChunk(escapeTextForBrowser(value)), attributeEnd);
                   }
@@ -10485,8 +10480,7 @@
             }
           }
           function popToNearestCommonAncestor(prev, next) {
-            if (prev === next)
-              ;
+            if (prev === next) ;
             else {
               popNode(prev);
               var parentPrev = prev.parent;
@@ -11969,8 +11963,7 @@
               try {
                 return renderNodeDestructiveImpl(request, task, node);
               } catch (x) {
-                if (typeof x === "object" && x !== null && typeof x.then === "function")
-                  ;
+                if (typeof x === "object" && x !== null && typeof x.then === "function") ;
                 else {
                   lastBoundaryErrorComponentStackDev = lastBoundaryErrorComponentStackDev !== null ? lastBoundaryErrorComponentStackDev : getCurrentStackInDEV();
                 }
@@ -12231,8 +12224,7 @@
               }
             } else {
               boundary.pendingTasks--;
-              if (boundary.forceClientRender)
-                ;
+              if (boundary.forceClientRender) ;
               else if (boundary.pendingTasks === 0) {
                 if (segment.parentFlushed) {
                   if (segment.status === COMPLETED) {
